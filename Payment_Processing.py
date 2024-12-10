@@ -104,6 +104,8 @@ class PaymentProcessing:
         Returns:
             str: A message indicating whether the payment was successful or failed.
         """
+        if payment_method not in ["credit_card"]:  # Assume that only credit_card is currently supported
+            raise ValueError("Invalid payment method")
         try:
             # Validate payment method and details
             self.validate_payment_method(payment_method, payment_details)
