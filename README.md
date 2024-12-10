@@ -26,7 +26,7 @@ sample codebase for the Order Placement module, covering class definitions
 and methods that handle the ordering process efficiently and effectively.
 
 4 Payment Processing
-The payment processing module in the Mobile Food Delivery App is responsible for securely validating payment methods and handling transactions. 
+The payment processing module in the Mobile Food Delivery App is responsible for securely validating payment methods and handling transactions. 
 This system integrates with various payment gateways to ensure that transactions
 are processed efficiently and accurately. This section outlines the structure,
 logic, and implementation of the payment processing functionality
